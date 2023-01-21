@@ -362,6 +362,9 @@ footer{
         width: 370px;
         padding: 30px;
     }
+    .content {
+        margin: 6px;
+    }
     .pro_info {
         padding: 30px;
     }
