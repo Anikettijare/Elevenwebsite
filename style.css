@@ -1,0 +1,380 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background-image: url('images/wireless-bg.png');
+    display: flow-root;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+}
+.logo img{
+    width: 250px;
+    margin: 40px;
+}
+.content{
+    text-align: end;
+    color: white;
+    width: 100%;
+    max-width: 620px;
+    float: right;
+    padding: 50px;
+    margin: 25px;
+}
+.content h1{
+    font-size: 6.6rem;
+    color: #f15048;
+}
+.content h3{
+    font-size: 5.5rem;
+    font-weight: 800;
+    line-height: 60px;
+}
+.content p{
+    font-style: italic;
+    margin: 30px 0;
+}
+.content a{
+    text-decoration: none;
+    color: #fff;
+    background: #f15048;
+    padding: 15px 20px;
+    border-radius: 20px;
+    font-weight: 600;
+}
+.content a:hover{
+    background-color: #ed281e;
+}
+/* CSS applied to sections part 1 */
+.product_overview{
+    display: flex;
+    flex-wrap: wrap;
+}
+.pro_info{
+    width: 100%;
+    max-width: 670px;
+    padding: 80px;
+}
+.pro_info h3{
+    font-size: 60px;
+}
+.pro_info h4{
+    font-size: 22px;
+    font-weight: 500;
+    text-transform: uppercase;
+    line-height: 45px;
+}
+.pro_info p{
+    font-size: 17px;
+    font-style: italic;
+    line-height: 25px;
+    text-align: justify;
+}
+.pro_info a{
+    text-decoration: none;
+    background-color: #f15048;
+    border-radius: 30px;
+    color: #fff;
+    padding: 15px 30px;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 15px;
+}
+.pro_info a:hover{
+    color: rgb(197, 193, 193);
+}
+.pro_img{
+    transform: translateY(-45px);
+}
+.pro_img img{
+    width: 100%;
+}
+/* CSS applied to section part 2 */
+.chip_zone{
+    display: flex;
+    flex-wrap: wrap;
+}
+.chip_cont{
+    position: relative;
+    width: 100%;
+    max-width: 650px;
+    padding: 80px;
+}
+.chip_cont::before{
+    content: "";
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    background-image: url('images/con-bg.png');
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
+    opacity: 0.2;
+}
+.chip_cont h3{
+    font-size: 60px;
+}
+.chip_cont h4{
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 500;
+    margin: 10px 0px;
+}
+.chip_cont a{
+    text-decoration: none;
+    background-color: #f15048;
+    border-radius: 30px;
+    color: #fff;
+    padding: 15px 30px;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 15px;
+}
+.chip_cont p{
+    font-size: 17px;
+    font-style: italic;
+    line-height: 20px;
+    text-align: justify;
+    margin-bottom: 30px;
+}
+.chip_user img{
+    width: 100%;
+    max-width: 600px;
+    padding: 15px;
+    margin-top: 50px;
+    min-block-size: -webkit-fill-available;
+}
+.sect-vid{
+    margin-top: 60px;
+}
+/* CSS applied to section quality part */
+.quality{
+    background: url('images/head3.png');
+    display: flow-root;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: right;
+}
+.quality_con{
+    width: 600px;
+    text-align: end;
+    float: right;
+    padding: 100px;
+}
+.quality_con h3{
+    font-size: 50px;
+}
+.quality_con h4{
+    font-size: 25px;
+    text-transform: uppercase;
+    line-height: 50px;
+}
+.quality_con p{
+    font-style: italic;
+    line-height: 22px;
+    font-size: 17px;
+    margin-bottom: 30px;
+}
+.quality_con a{
+    text-decoration: none;
+    background-color: #f15048;
+    border-radius: 30px;
+    color: #fff;
+    padding: 15px 30px;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 15px;
+}
+.quality_con a:hover{
+    background-color: #ed281e;
+}
+/* css applied to available items */
+.avail_head{
+    text-align: center; 
+    margin: 50px;
+}
+.avail_head h3{
+    font-size: 60px;
+}
+.avail_head h4{
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #3e2323;
+    font-weight: 500;
+    letter-spacing: 2px;
+    margin-top: 15px;
+}
+.avil_items{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.avil_items .cards{
+    text-align: center;
+}
+.avil_items .cards h4, .cards h5{
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: 3px;
+    font-size: 17px;
+}
+.avil_items .cards p{
+    font-weight: 600;
+    margin-top: 10px;
+    font-size: 17px;
+}
+.avil_items .cards:hover{
+    transform: translateY(-20px);
+    transition: 0.5s ease-in-out;
+}
+/* CSS applied to highlights part */
+.highlight_box{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 100px;
+}
+.img_box img{
+    width: 100%;
+    max-width: 700px;
+}
+.h_box{
+    margin: 85px;
+}
+.h_box h3{
+    font-size: 50px;
+}
+.h_box h5{
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 500;
+    margin-top: 20px;
+    color: #3a3838;
+    letter-spacing: 3px;
+}
+.h_box ul{
+    margin: 20px 0;
+}
+.h_box ul li{
+    font-style: italic;
+    line-height: 40px;
+    color: #4a4848;
+    margin-left: 20px;
+}
+.h_box a{
+    text-decoration: none;
+    background-color: #f15048;
+    border-radius: 30px;
+    color: #fff;
+    padding: 15px 30px;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 15px;
+}
+/* CSS applied to portfolio section */
+.portfolio{
+    display: flex;
+    padding: 100px 0;
+}
+.folio_imgs img{
+    width: 100%;
+    max-width: 905px;
+}
+.imgs_1 img{
+    width: 100%;
+}
+.imgs_2 img{
+    width: 100%;
+}
+/* CSS applied to Tech Specs */
+.special_part{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.spec_item img{
+    width: 370px;
+    height: auto;
+}
+.feature_list{
+    padding: 20px 0;
+    margin-left: 70px;
+}
+.feature_list h3{
+    font-size: 50px;
+    margin-bottom: 25px;
+}
+.d_function{
+    display: flex;
+    flex-wrap: wrap;
+}
+.manufac_info h4{
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+.manufac_info ul li{
+    margin: 15px;
+    font-style: italic;
+}
+.others_func{
+    margin-left: 60px;
+}
+.others_func h4{
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+.others_func ul li{
+    margin: 15px;
+    font-style: italic;
+}
+/* Footer Section */
+footer{
+    background-color: #3e2323;
+}
+.footer_part{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    color: #fff;
+    padding: 80px;
+}
+.footer_item h4{
+    font-size: 20px;
+}
+.footer_item ul li{
+    list-style-type: none;
+    margin: 20px 0;
+}
+.copy{
+    text-align: center;
+    color: #fff;
+    padding: 30px;
+}
+@media (max-width:500px) {
+    .quality_con{
+        width: 370px;
+        padding: 30px;
+    }
+    .pro_info {
+        padding: 30px;
+    }
+    .chip_cont {
+        padding: 30px;
+    }
+    .portfolio{
+        display: block;
+    }
+    .others_func{
+        margin-left: 0px;
+    }
+    .footer_part{
+        display: block;
+    }
+}
